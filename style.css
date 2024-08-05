@@ -1,0 +1,108 @@
+body{
+    background-color: #0e0e0e;
+    margin: 0px;
+    padding: 0px;
+}
+.topbar{
+    display: flex;
+    justify-content:space-between;
+    /* position:fixed; */
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    
+}
+.icon{
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.toplink{
+    padding: 13px;
+    color: rgba(255, 255, 255, 0.84);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.toplink:hover{
+    color: white;
+}
+
+.icon-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.download-btn{
+    color: #fff;
+    background-color: blue;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    border-radius: 10px;
+}
+.search-box{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+
+/* main banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px 20px;
+    
+}
+
+.banner-link{
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* banner 1 */
+.banner-1{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    height: 400px;
+}
+
+.banner-1-heading{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.banner-1-btn{
+    border-radius: 3px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px;
+    
+}
+
+
+
+.banner-1-content{
+    padding-right: 50px;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.banner-1-img{
+    width: 650px;
+    height: 400px;
+}
+
+
